@@ -1,0 +1,32 @@
+{
+  "name": "e-and-buy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "gen": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "srv": "http-server ./dist"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "core-js": "^3.7.0",
+    "nuxt": "^2.14.7"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.7",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@types/firebase": "^3.2.1",
+    "firebase": "^8.0.2",
+    "http-server": "^0.12.3",
+    "nuxt-property-decorator": "^2.8.8",
+    "pug": "^2.0.0",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^10.1.0",
+    "node-sass": "^4.14.1",
+    "vuex-module-decorators": "^1.0.1"
+  }
+}
