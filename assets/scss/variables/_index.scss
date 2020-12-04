@@ -1,0 +1,20 @@
+$rem: 16px;
+$gutter: 32px;
+$size-container: ($rem * 5 * 12) + ($rem * 2 * 11) + ($rem * 2 * 2);
+$spacer: 1rem !default;
+
+$tick: 0.4s;
+
+@import "color";
+@import "screen";
+@import "mediaquery";
+@import "zindex";
+@import "ease";
+@import "shadow";
+
+$skew: 13.5deg;
+$skew2: 20deg;
+
+$box-shadow-sm: 0 .125rem .25rem rgba($color-black, .075) !default;
+$box-shadow: 0 .5rem 1rem rgba($color-black, .15) !default;
+$box-shadow-lg: 0 1rem 3rem rgba($color-black, .175) !default;
