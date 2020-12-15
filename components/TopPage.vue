@@ -116,7 +116,7 @@
               span  すべての事例を見る　>
       section.top-info
         .container
-          
+
 
 
 
@@ -321,6 +321,10 @@
       &__button{
         text-align: center;
       }
+    }
+
+    .top-info{
+      background-color: #EBE8E4;//$color-gray-200
     }
   }
 </style>
